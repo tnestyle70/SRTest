@@ -40,6 +40,9 @@
     <Filter Include="02. GameObject\03. SkyBox">
       <UniqueIdentifier>{6dba769c-929e-41d6-acab-67c6c5840834}</UniqueIdentifier>
     </Filter>
+    <Filter Include="01. Scene\02. Main">
+      <UniqueIdentifier>{bf81bf32-7f56-4295-b5dc-17ca3821fac0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
