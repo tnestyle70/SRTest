@@ -37,6 +37,9 @@
     <Filter Include="02. GameObject\02. Player">
       <UniqueIdentifier>{eee99c08-257c-4660-b8f2-ef5c11b8ea73}</UniqueIdentifier>
     </Filter>
+    <Filter Include="02. GameObject\03. SkyBox">
+      <UniqueIdentifier>{6dba769c-929e-41d6-acab-67c6c5840834}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="framework.h">
@@ -69,6 +72,9 @@
     <ClInclude Include="..\Header\CPlayer.h">
       <Filter>02. GameObject\02. Player</Filter>
     </ClInclude>
+    <ClInclude Include="..\Header\CSkyBox.h">
+      <Filter>02. GameObject\03. SkyBox</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Client.cpp">
@@ -91,6 +97,9 @@
     </ClCompile>
     <ClCompile Include="..\Code\CPlayer.cpp">
       <Filter>02. GameObject\02. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Code\CSkyBox.cpp">
+      <Filter>02. GameObject\03. SkyBox</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
