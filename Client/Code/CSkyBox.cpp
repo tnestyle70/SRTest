@@ -17,7 +17,12 @@ CSkyBox::~CSkyBox()
 
 HRESULT CSkyBox::Ready_GameObject()
 {
-	
+	int test = 0;
+
+	if (test != 0)
+	{
+		return S_OK;
+	}
 
 	return S_OK;
 }
